@@ -1,0 +1,41 @@
+/*Side bar*/
+
+.Side-bar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    width: 72px;
+    background-color: white;
+    z-index: 200;
+    padding-top: 5px;
+
+   }
+  /* .home-btn,.explore-btn,.sub-btn,.org-btn,
+   .music-btn,.lib-btn{
+    height: 20px;
+    background-color: white;
+    margin-bottom: 12px;
+   }*/
+   .Sidebar-link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 76px; 
+    cursor: pointer;
+   }
+   .Sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+   }
+   .Sidebar-link img{
+    height: 24px;
+    margin-bottom: 4px;
+   }
+   .Sidebar-link div{
+    font-family: Roboto,Arial;
+    font-size: 10px;
+
+   }

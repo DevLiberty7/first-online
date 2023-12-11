@@ -1,0 +1,51 @@
+    /*You can declare the defults at the top 
+            usin p{} for family and margin top/bottom*/
+            p{
+                font-family: Roboto;
+            }
+            .video{
+                
+                font-style: italic;
+                font-weight: bold;
+                font-size: 18px;
+                 width: 300px;
+                 line-height: 26px;
+                 margin-bottom: 10px;
+            }
+            .views{
+              
+                font-size: 14px;
+                color: rgb(97, 97, 97);
+                margin-top: 0px;
+            }
+            .check{
+               
+                font-size: 14px;
+                color: rgb(97, 97, 97);
+                margin-top: 20px; 
+            }
+            .sentence{
+               
+                font-style: italic;
+                font-size: 15px;
+                 width: 290px;
+                 line-height: 22px;
+                 margin-bottom: 10px; 
+                 color: rgb(97, 97, 97); 
+                 margin-top: 20px;
+            }
+        
+            .Shop{
+                background-color: rgb(227, 65, 64);
+                font-family: Arial;
+                font-size: 14px;
+                color: white;
+                text-align: center;
+                padding-top: 18px;
+                padding-bottom: 18px;
+                
+            }
+            .span:hover{
+                cursor: pointer;
+                text-decoration: underline;
+            }

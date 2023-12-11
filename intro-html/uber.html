@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>
+            Uber
+        </title>
+
+        <style>
+          .Request{
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 30px;
+          }
+          .pickup,
+          .dropoff{
+           display: block;
+           margin-top: 15px; 
+           width: 300px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           padding-left: 10px;
+
+          }
+          
+          .now{
+            margin-top: 20px;
+            width: 130px;
+            height: 50px;
+            background-color: black;
+            color: white;
+            border-width: 0px;
+          }
+          .now:hover{
+            cursor: pointer;
+            width: 140px;
+          }
+          .later{
+            margin-left: 20px;
+            width: 130px;
+            height: 50px;
+            border-width: 0px;
+           
+          }
+          .later:hover{
+            cursor: pointer;
+            width: 140px;
+          }
+        </style>
+    </head>
+
+    <body>
+    <p class="request">
+      Request a ride now
+    </p>
+    <input class="pickup" type="text" placeholder="Enter pickup location">
+    <input class="dropoff" type="text" placeholder="Enter destination">
+
+    <button class="now">
+      Request now
+    </button>
+    <button class="later">
+     Schedule for later
+    </button>
+    </body>
+</html>
